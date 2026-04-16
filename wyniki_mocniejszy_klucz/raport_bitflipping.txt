@@ -1,0 +1,9 @@
+WNIOSKI BIT-FLIPPING
+
+ECB: po zmianie 1 bitu szyfrogramu uszkadza sie tylko jeden blok.
+CBC: po zmianie 1 bitu szyfrogramu blad propaguje sie na dwa bloki.
+CTR: po zmianie 1 bitu szyfrogramu uszkadza sie dokladnie 1 bit danych jawnych.
+
+ECB: roznica bitow szyfrogramu=1, roznica bitow po deszyfrowaniu=6
+CBC: roznica bitow szyfrogramu=1, roznica bitow po deszyfrowaniu=4
+CTR: roznica bitow szyfrogramu=1, roznica bitow po deszyfrowaniu=1
